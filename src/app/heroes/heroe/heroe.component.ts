@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-heroe',
-  templateUrl: './heroe.component.html',
+  templateUrl: 'heroe.component.html',
 })
 export class HeroeComponent {
   nombre: string = 'Ironman';
@@ -21,6 +21,7 @@ export class HeroeComponent {
   }
 
   cambiarEdad(): void {
-    this.edad = 25;
+    console.log('hey...');
+    this.edad = 30;
   }
 }
